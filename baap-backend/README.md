@@ -26,10 +26,6 @@ mongo
 show dbs
 ```
 
-```
-use [database name]
-```
-
 `- creates a new database`
 
 ```
