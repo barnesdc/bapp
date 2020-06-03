@@ -31,3 +31,27 @@ use [database name]
 ```
 
 `- creates a new database`
+
+```
+use bapp-listings
+```
+
+ex. save command via docker cli
+
+```
+db.listings.save({
+    category: "restaurants",
+    review: 5
+    name: "Blazin' Steaks",
+    address: "1010 University Ave, Honolulu, HI 96826",
+    city: "Honolulu",
+    state: "HI",
+    zip: 96826,
+    phone_number: "808-942-1111"
+    website: ""
+})
+```
+
+- `note: what if there are multiple locations`
+
+- utilize CRUD (CREATE, READ, UPDATE, DELETE)
